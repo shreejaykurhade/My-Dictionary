@@ -1,0 +1,66 @@
+/* Wrapper Styles */
+.wrapper {
+  background-color: #282c34; /* Background color for the wrapper */
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  height: 100vh; /* Full height of the viewport */
+  margin: 0 auto; /* Center the wrapper horizontally */
+  padding: 20px; /* Add some padding for spacing */
+  width: 100%; /* Full width of the viewport */
+  max-width: 600px; /* Limit the maximum width */
+}
+
+/* Title Styles */
+h1 {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+/* App Container */
+#app {
+  text-align: center; /* Center text within the app container */
+  width: 100%; /* Full width */
+}
+
+/* Input Styles */
+input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 50%; /* Width of input box */
+}
+
+/* Button Styles */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  width: 50%; /* Width of button */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker shade on hover */
+}
+
+/* Result Box Styles */
+#result {
+  margin-top: 20px;
+  
+  background-color: #ffffff;
+  color: #333; /* Dark text for contrast */
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%; /* Width of result box */
+  display: flex; /* Enable flexbox for alignment */
+  justify-content: center; /* Center the result box */
+  align-items: flex-start; /* Align items to the start (top) */
+  text-align: left; /* Align text to the left */
+}
