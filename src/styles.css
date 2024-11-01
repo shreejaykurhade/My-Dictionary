@@ -54,7 +54,7 @@ button:hover {
 #result {
   margin-top: 20px;
   
-  background-color: #ffffff;
+  background-color: hsl(0, 0%, 69%);
   color: #333; /* Dark text for contrast */
   padding: 15px;
   border-radius: 5px;
